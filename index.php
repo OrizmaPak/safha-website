@@ -205,7 +205,7 @@
                 </style>
                 <div class="navbar-right">
                     <div class="menu-button">
-                        <a target="_blank" href="https://hems.com.ng/doc">
+                        <a target="_blank" href="https://safha.com.ng/doc">
                             <div class="btn btn-outline-primary shadow-none btn-sm btn-light text-xs mx-3">DOCUMENTATION</div>
                         </a>
                         <a href="#contactus" target="_blank">
@@ -1137,7 +1137,7 @@
                                 <div class="text-widget ">
                                     <div class="footer-nav ">
                                         <ul>
-                                            <li><a href="https://hems.com.ng/doc" target="_blank">Documentation</a></li>
+                                            <li><a href="https://safha.com.ng/doc" target="_blank">Documentation</a></li>
                                             <li><a>FAQ</a></li>
                                             <li><a>Press</a></li>
                                             <li><a>Community</a></li>
