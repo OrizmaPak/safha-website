@@ -47,13 +47,13 @@
 
     <main id="main-content">
         <section class="hero" id="home">
-            <img class="hero-media" src="images/ss28.png" width="1361" height="645" alt="SAFHA room status dashboard" fetchpriority="high">
+            <img class="hero-media" src="images/s1banner.png" width="923" height="729" alt="SAFHA hotel financial overview dashboard" fetchpriority="high">
             <div class="hero-shade" aria-hidden="true"></div>
             <div class="hero-app-label" aria-hidden="true">
                 <span class="hero-live-dot"></span>
                 <div>
-                    <strong>Live room status</strong>
-                    <span>Availability and service readiness</span>
+                    <strong>Live hotel overview</strong>
+                    <span>Rooms, occupancy and receivables</span>
                 </div>
             </div>
             <div class="shell hero-inner">

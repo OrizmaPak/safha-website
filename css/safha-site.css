@@ -250,8 +250,8 @@ h3 {
 .hero-media {
     position: absolute;
     top: 50%;
-    right: max(-90px, calc((100vw - var(--shell)) / 2 - 230px));
-    width: min(78vw, 1100px);
+    right: max(-10px, calc((100vw - var(--shell)) / 2 - 95px));
+    width: min(74vw, 980px);
     max-width: none;
     height: auto;
     filter: drop-shadow(0 32px 42px rgba(3, 14, 28, 0.34));
@@ -1256,8 +1256,9 @@ h3 {
     }
 
     .hero-media {
-        top: 410px;
-        right: -55px;
+        top: 270px;
+        right: auto;
+        left: calc(8vw - 300px);
         width: 970px;
         height: auto;
         transform: none;
@@ -1378,9 +1379,9 @@ h3 {
     }
 
     .hero-media {
-        top: 430px;
+        top: 360px;
         right: auto;
-        left: -139px;
+        left: -254px;
         width: 820px;
     }
 
@@ -1514,7 +1515,7 @@ h3 {
 
     .hero-media {
         right: auto;
-        left: -139px;
+        left: -254px;
         width: 820px;
     }
 
