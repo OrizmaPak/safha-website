@@ -1051,8 +1051,10 @@ h3 {
 }
 
 .footer-brand img {
-    width: 132px;
-    margin-bottom: 22px;
+    width: auto;
+    height: 24px;
+    margin-bottom: 18px;
+    object-fit: contain;
 }
 
 .footer-brand p {
