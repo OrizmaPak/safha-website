@@ -16,7 +16,7 @@ The Sales Report Page is designed to provide a comprehensive overview of sales a
 - **Sales History**: Indicates the current section for viewing sales reports.
 
 ## Filters
-- **Department / Salespoint**: Dropdown menu to select the department or sales point (e.g., Main Store).
+- **Department / Sales Point**: Dropdown menu to select the department or sales point (e.g., Main Store).
 - **Staff**: Dropdown menu to select the staff member involved in the sales (e.g., -ALL USERS-).
 - **Start Date**: Input field to select the start date for the sales report.
 - **End Date**: Input field to select the end date for the sales report.
