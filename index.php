@@ -1000,7 +1000,7 @@
                                     <div class="content ">
                                         <h4>Email</h4>
                                         <p>Our support team will get back to in 48-h during standard business hours.</p>
-                                        <!-- <p><a class="btn link-btn " href="mailto:example@gmail.com ">example@gmail.com</a></p> -->
+                                        <p><a class="btn link-btn " href="mailto:icisystemng@gmail.com">icisystemng@gmail.com</a></p>
                                     </div>
                                 </div>
                             </div>
@@ -1071,7 +1071,7 @@
                                 <div class="text-widget ">
                                     <div class="contact-info ">
                                         <ul>
-                                            <!-- <li class="email-field ">Support@sacredthemes.net</li> -->
+                                            <li class="email-field "><a href="mailto:icisystemng@gmail.com">icisystemng@gmail.com</a></li>
                                             <!-- <li class="phone-field "><a href="tel:+2348146362452 ">+234 (814) 636 2452</a></li> -->
                                             <li class="address-field ">17 Obafemi Awolowo Wy, Ikeja, Lagos 101233, Lagos</li>
                                         </ul>
