@@ -843,15 +843,19 @@ h3 {
 
 .control-shot {
     margin: 0;
-    overflow: hidden;
-    background: var(--surface);
-    border: 1px solid rgba(255, 255, 255, 0.18);
-    border-radius: 8px;
-    box-shadow: 0 24px 60px rgba(0, 0, 0, 0.24);
+    background: transparent;
 }
 
 .control-shot img {
+    display: block;
     width: 100%;
+}
+
+.control-shot figcaption {
+    padding-inline: 0;
+    color: #b8c8db;
+    background: transparent;
+    border-top: 0;
 }
 
 .reporting-grid {
