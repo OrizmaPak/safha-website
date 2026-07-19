@@ -47,27 +47,27 @@
 
     <main id="main-content">
         <section class="hero" id="home">
-            <img class="hero-media" src="images/ss28.png" width="1361" height="645" alt="SAFHA room status dashboard" fetchpriority="high">
+            <img class="hero-media" src="images/dashboard-img-2.png" width="961" height="713" alt="SAFHA user activity dashboard showing Oreva activity records" fetchpriority="high">
             <div class="hero-shade" aria-hidden="true"></div>
             <div class="hero-app-label" aria-hidden="true">
                 <span class="hero-live-dot"></span>
                 <div>
-                    <strong>Live room status</strong>
-                    <span>Availability and service readiness</span>
+                    <strong>Role-aware activity</strong>
+                    <span>Searchable by operator and date</span>
                 </div>
             </div>
             <div class="shell hero-inner">
-                <p class="eyebrow eyebrow-light"><span aria-hidden="true"></span>SAFHA hotel operating system</p>
-                <h1>Hotel operations,<br>finally working as one.</h1>
-                <p class="hero-copy">SAFHA connects front office, rooms, housekeeping, sales, inventory, purchasing, finance and staff management in one clear operational platform.</p>
+                <p class="eyebrow eyebrow-light"><span aria-hidden="true"></span>One system for the whole hotel</p>
+                <h1>Every hotel operation.<span>One clear view.</span></h1>
+                <p class="hero-copy">SAFHA brings front office, rooms, housekeeping, sales, stock, purchasing, finance and staff activity together, so every team can move with the same information.</p>
                 <div class="hero-actions">
                     <a class="button button-primary" href="#demo"><i class="fas fa-calendar-check" aria-hidden="true"></i>Request a demo</a>
                     <a class="button button-ghost" href="#operations"><i class="fas fa-arrow-down" aria-hidden="true"></i>Explore the platform</a>
                 </div>
                 <ul class="hero-points" aria-label="SAFHA highlights">
-                    <li><i class="fas fa-check" aria-hidden="true"></i>One connected workspace</li>
-                    <li><i class="fas fa-check" aria-hidden="true"></i>Role-based access</li>
-                    <li><i class="fas fa-check" aria-hidden="true"></i>Operational and financial reporting</li>
+                    <li><i class="fas fa-check" aria-hidden="true"></i>Built around hotel roles</li>
+                    <li><i class="fas fa-check" aria-hidden="true"></i>Live operational records</li>
+                    <li><i class="fas fa-check" aria-hidden="true"></i>From reservation to revenue</li>
                 </ul>
             </div>
         </section>
