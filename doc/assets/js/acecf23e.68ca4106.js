@@ -1,1 +1,1 @@
-"use strict";(self.webpackChunkdocs_website=self.webpackChunkdocs_website||[]).push([[1903],{1912:s=>{s.exports=JSON.parse('{"blogBasePath":"/doc/blog","blogTitle":"Blog","authorsListPath":"/doc/blog/authors"}')}}]);
+"use strict";(self.webpackChunkdocs_website=self.webpackChunkdocs_website||[]).push([[1903],{1912:s=>{s.exports=JSON.parse('{"blogBasePath":"/website/doc/blog","blogTitle":"Blog","authorsListPath":"/website/doc/blog/authors"}')}}]);

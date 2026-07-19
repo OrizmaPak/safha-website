@@ -39,7 +39,7 @@
                 <a href="#capabilities">Capabilities</a>
                 <a href="#why-safha">Why SAFHA</a>
                 <a href="#faq">FAQ</a>
-                <a class="nav-docs" href="/doc/docs/welcome_to_safha/index.html" target="_blank" rel="noopener">Documentation</a>
+                <a class="nav-docs" href="doc/docs/welcome_to_safha/index.html" target="_blank" rel="noopener">Documentation</a>
                 <a class="button button-small button-primary" href="#demo">Request a demo</a>
             </nav>
         </div>
@@ -301,7 +301,7 @@
                         <span><i class="fas fa-warehouse" aria-hidden="true"></i>Stock ledger and valuation</span>
                         <span><i class="fas fa-file-invoice" aria-hidden="true"></i>GL and financial statements</span>
                     </div>
-                    <a class="text-link" href="/doc/docs/welcome_to_safha/index.html" target="_blank" rel="noopener">Explore product documentation <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+                    <a class="text-link" href="doc/docs/welcome_to_safha/index.html" target="_blank" rel="noopener">Explore product documentation <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
                 </div>
             </div>
         </section>
@@ -395,7 +395,7 @@
             </div>
             <div class="footer-nav">
                 <strong>Resources</strong>
-                <a href="/doc/docs/welcome_to_safha/index.html" target="_blank" rel="noopener">Documentation</a>
+                <a href="doc/docs/welcome_to_safha/index.html" target="_blank" rel="noopener">Documentation</a>
                 <a href="#faq">FAQ</a>
                 <a href="#demo">Request a demo</a>
             </div>
