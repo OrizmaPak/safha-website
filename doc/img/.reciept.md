@@ -4,9 +4,9 @@ sidebar_position: 2
 
 # Reciept
 
-**HEMS - Hotel Manager**
+**SAFHA - Hotel Manager**
 
-![HEMS Registration](../../static/img/reciept.png "HEMS Registration")
+![SAFHA Registration](../../static/img/reciept.png "SAFHA Registration")
 
 ## Receipt Page
 
@@ -31,7 +31,7 @@ The Receipt Page is designed to record and manage payment transactions. Below is
 
 This page is essential for accurately recording payment transactions, ensuring all necessary details are captured for financial records.
 
-![HEMS Registration](../../static/img/reciept2.png "HEMS Registration")
+![SAFHA Registration](../../static/img/reciept2.png "SAFHA Registration")
 
 # View Receipt Page
 
