@@ -271,6 +271,7 @@
         dots: false,
         arrows: true,
         infinite: true,
+        lazyLoad: 'ondemand',
         speed: 600,
         slidesToShow: 1,
         autoplay: true,

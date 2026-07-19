@@ -240,7 +240,7 @@
                         <!--* End Col -->
                         <div class="col-lg-6 ">
                             <div class="image-wrapper full-width-img " style="transform: scale(1); ">
-                                <img src="images/s1banner.png " alt=" ">
+                                <img class="lazy-image" fetchpriority="low" decoding="async" loading="lazy" src="images/s1banner.png" alt=" ">
                             </div>
                         </div>
                         <!--* End Col -->
@@ -259,8 +259,8 @@
                                     <div class="features-block theme-one wow fadeInUp ">
                                         <div class="inner-box ">
                                             <div class="icon ">
-                                                <img class="normal " src="images/default-color/icon-1.svg " alt=" ">
-                                                <img class="hover " src="images/default-color/icon-1-light.svg " alt=" ">
+                                                <img fetchpriority="low" decoding="async" loading="lazy" class="normal  lazy-image" src="images/default-color/icon-1.svg" alt=" ">
+                                                <img fetchpriority="low" decoding="async" loading="lazy" class="hover  lazy-image" src="images/default-color/icon-1-light.svg" alt=" ">
                                             </div>
                                             <div class="text ">
                                                 <h4>Clean Code</h4>
@@ -274,8 +274,8 @@
                                     <div class="features-block theme-one wow fadeInUp " data-wow-delay="0.2s ">
                                         <div class="inner-box ">
                                             <div class="icon ">
-                                                <img class="normal " src="images/default-color/icon-2.svg " alt=" ">
-                                                <img class="hover " src="images/default-color/icon-2-light.svg " alt=" ">
+                                                <img fetchpriority="low" decoding="async" loading="lazy" class="normal  lazy-image" src="images/default-color/icon-2.svg" alt=" ">
+                                                <img fetchpriority="low" decoding="async" loading="lazy" class="hover  lazy-image" src="images/default-color/icon-2-light.svg" alt=" ">
                                             </div>
                                             <div class="text ">
                                                 <h4>Easily customizable</h4>
@@ -289,8 +289,8 @@
                                     <div class="features-block theme-one wow fadeInUp " data-wow-delay="0.2s ">
                                         <div class="inner-box ">
                                             <div class="icon ">
-                                                <img class="normal " src="images/default-color/icon-3.svg " alt=" ">
-                                                <img class="hover " src="images/default-color/icon-3-light.svg " alt=" ">
+                                                <img fetchpriority="low" decoding="async" loading="lazy" class="normal  lazy-image" src="images/default-color/icon-3.svg" alt=" ">
+                                                <img fetchpriority="low" decoding="async" loading="lazy" class="hover  lazy-image" src="images/default-color/icon-3-light.svg" alt=" ">
                                             </div>
                                             <div class="text ">
                                                 <h4>User Friendly</h4>
@@ -304,8 +304,8 @@
                                     <div class="features-block theme-one wow fadeInUp " data-wow-delay="0.4s ">
                                         <div class="inner-box ">
                                             <div class="icon ">
-                                                <img class="normal " src="images/default-color/icon-4.svg " alt=" ">
-                                                <img class="hover " src="images/default-color/icon-4-light.svg " alt=" ">
+                                                <img fetchpriority="low" decoding="async" loading="lazy" class="normal  lazy-image" src="images/default-color/icon-4.svg" alt=" ">
+                                                <img fetchpriority="low" decoding="async" loading="lazy" class="hover  lazy-image" src="images/default-color/icon-4-light.svg" alt=" ">
                                             </div>
                                             <div class="text ">
                                                 <h4>Fully secured</h4>
@@ -390,7 +390,7 @@
 
                         <!--* End Col -->
                         <div class="col-lg-6 ">
-                            <img src="images/dashboard-img-2.png " alt=" ">
+                            <img class="lazy-image" fetchpriority="low" decoding="async" loading="lazy" src="images/dashboard-img-2.png" alt=" ">
                         </div>
                         <!--* End Col -->
                     </div>
@@ -418,136 +418,136 @@
                     <div class="row clearfix ">
                         <div class="col-lg-12 ">
                             <div class="ss-wrapper ">
-                                <img class="laptop-img-bg " src="images/laptop-screen.png " style="max-width: 99%; position: absolute; top: 21px; left: 8px; right: 0; " alt=" " />
+                                <img fetchpriority="low" decoding="async" loading="lazy" class="laptop-img-bg  lazy-image" src="images/laptop-screen.png" style="max-width: 99%; position: absolute; top: 21px; left: 8px; right: 0; " alt=" " />
                                 <div class="screenshot-slider text-center ">
                                     <div class="item shadow-sm transform-scale-1 ">
-                                        <img src="images/ss1.png " alt=" ">
+                                        <img class="lazy-image" fetchpriority="low" decoding="async" loading="lazy" src="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%221200%22 height=%22675%22 viewBox=%220 0 1200 675%22%3E%3Crect width=%221200%22 height=%22675%22 fill=%22%23f4f7fb%22/%3E%3C/svg%3E" data-lazy="images/ss1.png" alt=" ">
                                     </div>
                                     <div class="item shadow-sm transform-scale-2 ">
-                                        <img src="images/ss2.png " alt=" ">
+                                        <img class="lazy-image" fetchpriority="low" decoding="async" loading="lazy" src="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%221200%22 height=%22675%22 viewBox=%220 0 1200 675%22%3E%3Crect width=%221200%22 height=%22675%22 fill=%22%23f4f7fb%22/%3E%3C/svg%3E" data-lazy="images/ss2.png" alt=" ">
                                     </div>
                                     <div class="item shadow-sm transform-scale-2 ">
-                                        <img src="images/ss3.png " alt=" ">
+                                        <img class="lazy-image" fetchpriority="low" decoding="async" loading="lazy" src="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%221200%22 height=%22675%22 viewBox=%220 0 1200 675%22%3E%3Crect width=%221200%22 height=%22675%22 fill=%22%23f4f7fb%22/%3E%3C/svg%3E" data-lazy="images/ss3.png" alt=" ">
                                     </div>
                                     <div class="item shadow-sm transform-scale-2 ">
-                                        <img src="images/ss4.png " alt=" ">
+                                        <img class="lazy-image" fetchpriority="low" decoding="async" loading="lazy" src="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%221200%22 height=%22675%22 viewBox=%220 0 1200 675%22%3E%3Crect width=%221200%22 height=%22675%22 fill=%22%23f4f7fb%22/%3E%3C/svg%3E" data-lazy="images/ss4.png" alt=" ">
                                     </div>
                                     <div class="item shadow-sm transform-scale-2 ">
-                                        <img src="images/ss5.png " alt=" ">
+                                        <img class="lazy-image" fetchpriority="low" decoding="async" loading="lazy" src="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%221200%22 height=%22675%22 viewBox=%220 0 1200 675%22%3E%3Crect width=%221200%22 height=%22675%22 fill=%22%23f4f7fb%22/%3E%3C/svg%3E" data-lazy="images/ss5.png" alt=" ">
                                     </div>
                                     <div class="item shadow-sm transform-scale-2 ">
-                                        <img src="images/ss6.png " alt=" ">
+                                        <img class="lazy-image" fetchpriority="low" decoding="async" loading="lazy" src="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%221200%22 height=%22675%22 viewBox=%220 0 1200 675%22%3E%3Crect width=%221200%22 height=%22675%22 fill=%22%23f4f7fb%22/%3E%3C/svg%3E" data-lazy="images/ss6.png" alt=" ">
                                     </div>
                                     <div class="item shadow-sm transform-scale-2 ">
-                                        <img src="images/ss7.png " alt=" ">
+                                        <img class="lazy-image" fetchpriority="low" decoding="async" loading="lazy" src="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%221200%22 height=%22675%22 viewBox=%220 0 1200 675%22%3E%3Crect width=%221200%22 height=%22675%22 fill=%22%23f4f7fb%22/%3E%3C/svg%3E" data-lazy="images/ss7.png" alt=" ">
                                     </div>
                                     <div class="item shadow-sm transform-scale-2 ">
-                                        <img src="images/ss8.png " alt=" ">
+                                        <img class="lazy-image" fetchpriority="low" decoding="async" loading="lazy" src="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%221200%22 height=%22675%22 viewBox=%220 0 1200 675%22%3E%3Crect width=%221200%22 height=%22675%22 fill=%22%23f4f7fb%22/%3E%3C/svg%3E" data-lazy="images/ss8.png" alt=" ">
                                     </div>
                                     <div class="item shadow-sm transform-scale-2 ">
-                                        <img src="images/ss9.png " alt=" ">
+                                        <img class="lazy-image" fetchpriority="low" decoding="async" loading="lazy" src="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%221200%22 height=%22675%22 viewBox=%220 0 1200 675%22%3E%3Crect width=%221200%22 height=%22675%22 fill=%22%23f4f7fb%22/%3E%3C/svg%3E" data-lazy="images/ss9.png" alt=" ">
                                     </div>
                                     <div class="item shadow-sm transform-scale-2 ">
-                                        <img src="images/ss10.png " alt=" ">
+                                        <img class="lazy-image" fetchpriority="low" decoding="async" loading="lazy" src="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%221200%22 height=%22675%22 viewBox=%220 0 1200 675%22%3E%3Crect width=%221200%22 height=%22675%22 fill=%22%23f4f7fb%22/%3E%3C/svg%3E" data-lazy="images/ss10.png" alt=" ">
                                     </div>
                                     <div class="item shadow-sm transform-scale-2 ">
-                                        <img src="images/ss11.png " alt=" ">
+                                        <img class="lazy-image" fetchpriority="low" decoding="async" loading="lazy" src="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%221200%22 height=%22675%22 viewBox=%220 0 1200 675%22%3E%3Crect width=%221200%22 height=%22675%22 fill=%22%23f4f7fb%22/%3E%3C/svg%3E" data-lazy="images/ss11.png" alt=" ">
                                     </div>
                                     <div class="item shadow-sm transform-scale-2 ">
-                                        <img src="images/ss12.png " alt=" ">
+                                        <img class="lazy-image" fetchpriority="low" decoding="async" loading="lazy" src="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%221200%22 height=%22675%22 viewBox=%220 0 1200 675%22%3E%3Crect width=%221200%22 height=%22675%22 fill=%22%23f4f7fb%22/%3E%3C/svg%3E" data-lazy="images/ss12.png" alt=" ">
                                     </div>
                                     <div class="item shadow-sm transform-scale-2 ">
-                                        <img src="images/ss13.png " alt=" ">
+                                        <img class="lazy-image" fetchpriority="low" decoding="async" loading="lazy" src="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%221200%22 height=%22675%22 viewBox=%220 0 1200 675%22%3E%3Crect width=%221200%22 height=%22675%22 fill=%22%23f4f7fb%22/%3E%3C/svg%3E" data-lazy="images/ss13.png" alt=" ">
                                     </div>
                                     <div class="item shadow-sm transform-scale-2 ">
-                                        <img src="images/ss14.png " alt=" ">
+                                        <img class="lazy-image" fetchpriority="low" decoding="async" loading="lazy" src="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%221200%22 height=%22675%22 viewBox=%220 0 1200 675%22%3E%3Crect width=%221200%22 height=%22675%22 fill=%22%23f4f7fb%22/%3E%3C/svg%3E" data-lazy="images/ss14.png" alt=" ">
                                     </div>
                                     <div class="item shadow-sm transform-scale-2 ">
-                                        <img src="images/ss15.png " alt=" ">
+                                        <img class="lazy-image" fetchpriority="low" decoding="async" loading="lazy" src="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%221200%22 height=%22675%22 viewBox=%220 0 1200 675%22%3E%3Crect width=%221200%22 height=%22675%22 fill=%22%23f4f7fb%22/%3E%3C/svg%3E" data-lazy="images/ss15.png" alt=" ">
                                     </div>
                                     <div class="item shadow-sm transform-scale-2 ">
-                                        <img src="images/ss16.png " alt=" ">
+                                        <img class="lazy-image" fetchpriority="low" decoding="async" loading="lazy" src="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%221200%22 height=%22675%22 viewBox=%220 0 1200 675%22%3E%3Crect width=%221200%22 height=%22675%22 fill=%22%23f4f7fb%22/%3E%3C/svg%3E" data-lazy="images/ss16.png" alt=" ">
                                     </div>
                                     <div class="item shadow-sm transform-scale-2 ">
-                                        <img src="images/ss17.png " alt=" ">
+                                        <img class="lazy-image" fetchpriority="low" decoding="async" loading="lazy" src="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%221200%22 height=%22675%22 viewBox=%220 0 1200 675%22%3E%3Crect width=%221200%22 height=%22675%22 fill=%22%23f4f7fb%22/%3E%3C/svg%3E" data-lazy="images/ss17.png" alt=" ">
                                     </div>
                                     <div class="item shadow-sm transform-scale-2 ">
-                                        <img src="images/ss18.png " alt=" ">
+                                        <img class="lazy-image" fetchpriority="low" decoding="async" loading="lazy" src="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%221200%22 height=%22675%22 viewBox=%220 0 1200 675%22%3E%3Crect width=%221200%22 height=%22675%22 fill=%22%23f4f7fb%22/%3E%3C/svg%3E" data-lazy="images/ss18.png" alt=" ">
                                     </div>
                                     <div class="item shadow-sm transform-scale-2 ">
-                                        <img src="images/ss19.png " alt=" ">
+                                        <img class="lazy-image" fetchpriority="low" decoding="async" loading="lazy" src="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%221200%22 height=%22675%22 viewBox=%220 0 1200 675%22%3E%3Crect width=%221200%22 height=%22675%22 fill=%22%23f4f7fb%22/%3E%3C/svg%3E" data-lazy="images/ss19.png" alt=" ">
                                     </div>
                                     <div class="item shadow-sm transform-scale-2 ">
-                                        <img src="images/ss20.png " alt=" ">
+                                        <img class="lazy-image" fetchpriority="low" decoding="async" loading="lazy" src="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%221200%22 height=%22675%22 viewBox=%220 0 1200 675%22%3E%3Crect width=%221200%22 height=%22675%22 fill=%22%23f4f7fb%22/%3E%3C/svg%3E" data-lazy="images/ss20.png" alt=" ">
                                     </div>
                                     <div class="item shadow-sm transform-scale-2 ">
-                                        <img src="images/ss21.png " alt=" ">
+                                        <img class="lazy-image" fetchpriority="low" decoding="async" loading="lazy" src="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%221200%22 height=%22675%22 viewBox=%220 0 1200 675%22%3E%3Crect width=%221200%22 height=%22675%22 fill=%22%23f4f7fb%22/%3E%3C/svg%3E" data-lazy="images/ss21.png" alt=" ">
                                     </div>
                                     <div class="item shadow-sm transform-scale-2 ">
-                                        <img src="images/ss22.png " alt=" ">
+                                        <img class="lazy-image" fetchpriority="low" decoding="async" loading="lazy" src="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%221200%22 height=%22675%22 viewBox=%220 0 1200 675%22%3E%3Crect width=%221200%22 height=%22675%22 fill=%22%23f4f7fb%22/%3E%3C/svg%3E" data-lazy="images/ss22.png" alt=" ">
                                     </div>
                                     <div class="item shadow-sm transform-scale-2 ">
-                                        <img src="images/ss23.png " alt=" ">
+                                        <img class="lazy-image" fetchpriority="low" decoding="async" loading="lazy" src="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%221200%22 height=%22675%22 viewBox=%220 0 1200 675%22%3E%3Crect width=%221200%22 height=%22675%22 fill=%22%23f4f7fb%22/%3E%3C/svg%3E" data-lazy="images/ss23.png" alt=" ">
                                     </div>
                                     <div class="item shadow-sm transform-scale-2 ">
-                                        <img src="images/ss24.png " alt=" ">
+                                        <img class="lazy-image" fetchpriority="low" decoding="async" loading="lazy" src="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%221200%22 height=%22675%22 viewBox=%220 0 1200 675%22%3E%3Crect width=%221200%22 height=%22675%22 fill=%22%23f4f7fb%22/%3E%3C/svg%3E" data-lazy="images/ss24.png" alt=" ">
                                     </div>
                                     <div class="item shadow-sm transform-scale-2 ">
-                                        <img src="images/ss25.png " alt=" ">
+                                        <img class="lazy-image" fetchpriority="low" decoding="async" loading="lazy" src="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%221200%22 height=%22675%22 viewBox=%220 0 1200 675%22%3E%3Crect width=%221200%22 height=%22675%22 fill=%22%23f4f7fb%22/%3E%3C/svg%3E" data-lazy="images/ss25.png" alt=" ">
                                     </div>
                                     <div class="item shadow-sm transform-scale-2 ">
-                                        <img src="images/ss26.png " alt=" ">
+                                        <img class="lazy-image" fetchpriority="low" decoding="async" loading="lazy" src="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%221200%22 height=%22675%22 viewBox=%220 0 1200 675%22%3E%3Crect width=%221200%22 height=%22675%22 fill=%22%23f4f7fb%22/%3E%3C/svg%3E" data-lazy="images/ss26.png" alt=" ">
                                     </div>
                                     <div class="item shadow-sm transform-scale-2 ">
-                                        <img src="images/ss27.png " alt=" ">
+                                        <img class="lazy-image" fetchpriority="low" decoding="async" loading="lazy" src="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%221200%22 height=%22675%22 viewBox=%220 0 1200 675%22%3E%3Crect width=%221200%22 height=%22675%22 fill=%22%23f4f7fb%22/%3E%3C/svg%3E" data-lazy="images/ss27.png" alt=" ">
                                     </div>
                                     <div class="item shadow-sm transform-scale-2 ">
-                                        <img src="images/ss28.png " alt=" ">
+                                        <img class="lazy-image" fetchpriority="low" decoding="async" loading="lazy" src="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%221200%22 height=%22675%22 viewBox=%220 0 1200 675%22%3E%3Crect width=%221200%22 height=%22675%22 fill=%22%23f4f7fb%22/%3E%3C/svg%3E" data-lazy="images/ss28.png" alt=" ">
                                     </div>
                                     <div class="item shadow-sm transform-scale-2 ">
-                                        <img src="images/ss29.png " alt=" ">
+                                        <img class="lazy-image" fetchpriority="low" decoding="async" loading="lazy" src="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%221200%22 height=%22675%22 viewBox=%220 0 1200 675%22%3E%3Crect width=%221200%22 height=%22675%22 fill=%22%23f4f7fb%22/%3E%3C/svg%3E" data-lazy="images/ss29.png" alt=" ">
                                     </div>
                                     <div class="item shadow-sm transform-scale-2 ">
-                                        <img src="images/ss30.png " alt=" ">
+                                        <img class="lazy-image" fetchpriority="low" decoding="async" loading="lazy" src="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%221200%22 height=%22675%22 viewBox=%220 0 1200 675%22%3E%3Crect width=%221200%22 height=%22675%22 fill=%22%23f4f7fb%22/%3E%3C/svg%3E" data-lazy="images/ss30.png" alt=" ">
                                     </div>
                                     <div class="item shadow-sm transform-scale-2 ">
-                                        <img src="images/ss31.png " alt=" ">
+                                        <img class="lazy-image" fetchpriority="low" decoding="async" loading="lazy" src="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%221200%22 height=%22675%22 viewBox=%220 0 1200 675%22%3E%3Crect width=%221200%22 height=%22675%22 fill=%22%23f4f7fb%22/%3E%3C/svg%3E" data-lazy="images/ss31.png" alt=" ">
                                     </div>
                                     <div class="item shadow-sm transform-scale-2 ">
-                                        <img src="images/ss32.png " alt=" ">
+                                        <img class="lazy-image" fetchpriority="low" decoding="async" loading="lazy" src="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%221200%22 height=%22675%22 viewBox=%220 0 1200 675%22%3E%3Crect width=%221200%22 height=%22675%22 fill=%22%23f4f7fb%22/%3E%3C/svg%3E" data-lazy="images/ss32.png" alt=" ">
                                     </div>
                                     <div class="item shadow-sm transform-scale-2 ">
-                                        <img src="images/ss33.png " alt=" ">
+                                        <img class="lazy-image" fetchpriority="low" decoding="async" loading="lazy" src="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%221200%22 height=%22675%22 viewBox=%220 0 1200 675%22%3E%3Crect width=%221200%22 height=%22675%22 fill=%22%23f4f7fb%22/%3E%3C/svg%3E" data-lazy="images/ss33.png" alt=" ">
                                     </div>
                                     <div class="item shadow-sm transform-scale-2 ">
-                                        <img src="images/ss34.png " alt=" ">
+                                        <img class="lazy-image" fetchpriority="low" decoding="async" loading="lazy" src="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%221200%22 height=%22675%22 viewBox=%220 0 1200 675%22%3E%3Crect width=%221200%22 height=%22675%22 fill=%22%23f4f7fb%22/%3E%3C/svg%3E" data-lazy="images/ss34.png" alt=" ">
                                     </div>
                                     <div class="item shadow-sm transform-scale-2 ">
-                                        <img src="images/ss35.png " alt=" ">
+                                        <img class="lazy-image" fetchpriority="low" decoding="async" loading="lazy" src="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%221200%22 height=%22675%22 viewBox=%220 0 1200 675%22%3E%3Crect width=%221200%22 height=%22675%22 fill=%22%23f4f7fb%22/%3E%3C/svg%3E" data-lazy="images/ss35.png" alt=" ">
                                     </div>
                                     <div class="item shadow-sm transform-scale-2 ">
-                                        <img src="images/ss36.png " alt=" ">
+                                        <img class="lazy-image" fetchpriority="low" decoding="async" loading="lazy" src="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%221200%22 height=%22675%22 viewBox=%220 0 1200 675%22%3E%3Crect width=%221200%22 height=%22675%22 fill=%22%23f4f7fb%22/%3E%3C/svg%3E" data-lazy="images/ss36.png" alt=" ">
                                     </div>
                                     <div class="item shadow-sm transform-scale-2 ">
-                                        <img src="images/ss37.png " alt=" ">
+                                        <img class="lazy-image" fetchpriority="low" decoding="async" loading="lazy" src="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%221200%22 height=%22675%22 viewBox=%220 0 1200 675%22%3E%3Crect width=%221200%22 height=%22675%22 fill=%22%23f4f7fb%22/%3E%3C/svg%3E" data-lazy="images/ss37.png" alt=" ">
                                     </div>
                                     <div class="item shadow-sm transform-scale-2 ">
-                                        <img src="images/ss38.png " alt=" ">
+                                        <img class="lazy-image" fetchpriority="low" decoding="async" loading="lazy" src="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%221200%22 height=%22675%22 viewBox=%220 0 1200 675%22%3E%3Crect width=%221200%22 height=%22675%22 fill=%22%23f4f7fb%22/%3E%3C/svg%3E" data-lazy="images/ss38.png" alt=" ">
                                     </div>
                                     <div class="item shadow-sm transform-scale-2 ">
-                                        <img src="images/ss39.png " alt=" ">
+                                        <img class="lazy-image" fetchpriority="low" decoding="async" loading="lazy" src="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%221200%22 height=%22675%22 viewBox=%220 0 1200 675%22%3E%3Crect width=%221200%22 height=%22675%22 fill=%22%23f4f7fb%22/%3E%3C/svg%3E" data-lazy="images/ss39.png" alt=" ">
                                     </div>
                                     <div class="item shadow-sm transform-scale-2 ">
-                                        <img src="images/ss40.png " alt=" ">
+                                        <img class="lazy-image" fetchpriority="low" decoding="async" loading="lazy" src="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%221200%22 height=%22675%22 viewBox=%220 0 1200 675%22%3E%3Crect width=%221200%22 height=%22675%22 fill=%22%23f4f7fb%22/%3E%3C/svg%3E" data-lazy="images/ss40.png" alt=" ">
                                     </div>
                                     <div class="item shadow-sm transform-scale-2 ">
-                                        <img src="images/ss41.png " alt=" ">
+                                        <img class="lazy-image" fetchpriority="low" decoding="async" loading="lazy" src="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%221200%22 height=%22675%22 viewBox=%220 0 1200 675%22%3E%3Crect width=%221200%22 height=%22675%22 fill=%22%23f4f7fb%22/%3E%3C/svg%3E" data-lazy="images/ss41.png" alt=" ">
                                     </div>
                                     <div class="item shadow-sm transform-scale-2 ">
-                                        <img src="images/ss42.png " alt=" ">
+                                        <img class="lazy-image" fetchpriority="low" decoding="async" loading="lazy" src="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%221200%22 height=%22675%22 viewBox=%220 0 1200 675%22%3E%3Crect width=%221200%22 height=%22675%22 fill=%22%23f4f7fb%22/%3E%3C/svg%3E" data-lazy="images/ss42.png" alt=" ">
                                     </div>
                                     <div class="item shadow-sm transform-scale-2 ">
-                                        <img src="images/ss43.png " alt=" ">
+                                        <img class="lazy-image" fetchpriority="low" decoding="async" loading="lazy" src="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%221200%22 height=%22675%22 viewBox=%220 0 1200 675%22%3E%3Crect width=%221200%22 height=%22675%22 fill=%22%23f4f7fb%22/%3E%3C/svg%3E" data-lazy="images/ss43.png" alt=" ">
                                     </div>
                                 </div>
                             </div>
@@ -657,7 +657,7 @@
                                         </div>
                                         <div class="client-info-wrapper ">
                                             <div class="client-img ">
-                                                <img src="images/team-4-square.jpg " alt="client ">
+                                                <img class="lazy-image" fetchpriority="low" decoding="async" loading="lazy" src="images/team-4-square.jpg" alt="client ">
                                             </div>
                                             <div class="client-info ">
                                                 <h5>Olumide Adewale</h5>
@@ -673,7 +673,7 @@
                                         </div>
                                         <div class="client-info-wrapper ">
                                             <div class="client-img ">
-                                                <img src="images/team-3-square.jpg " alt="client ">
+                                                <img class="lazy-image" fetchpriority="low" decoding="async" loading="lazy" src="images/team-3-square.jpg" alt="client ">
                                             </div>
                                             <div class="client-info ">
                                                 <h5>Chinwe Okafor</h5>
@@ -689,7 +689,7 @@
                                         </div>
                                         <div class="client-info-wrapper ">
                                             <div class="client-img ">
-                                                <img src="images/team-5-square.jpg " alt="client ">
+                                                <img class="lazy-image" fetchpriority="low" decoding="async" loading="lazy" src="images/team-5-square.jpg" alt="client ">
                                             </div>
                                             <div class="client-info ">
                                                 <h5>Aisha Lawal</h5>
@@ -705,7 +705,7 @@
                                         </div>
                                         <div class="client-info-wrapper ">
                                             <div class="client-img ">
-                                                <img src="images/team-1-square.jpg " alt="client ">
+                                                <img class="lazy-image" fetchpriority="low" decoding="async" loading="lazy" src="images/team-1-square.jpg" alt="client ">
                                             </div>
                                             <div class="client-info ">
                                                 <h5>Femi Adebayo</h5>
@@ -721,7 +721,7 @@
                                         </div>
                                         <div class="client-info-wrapper ">
                                             <div class="client-img ">
-                                                <img src="images/team-2-square.jpg " alt="client ">
+                                                <img class="lazy-image" fetchpriority="low" decoding="async" loading="lazy" src="images/team-2-square.jpg" alt="client ">
                                             </div>
                                             <div class="client-info ">
                                                 <h5>Yemi Bakare</h5>
@@ -765,7 +765,7 @@
                                 <div class="dc-features-item-front ">
                                     <div class="inner-box ">
                                         <div class="icon ">
-                                            <img class="normal " src="images/default-color/icon-2.svg " alt="Administration ">
+                                            <img fetchpriority="low" decoding="async" loading="lazy" class="normal  lazy-image" src="images/default-color/icon-2.svg" alt="Administration ">
                                         </div>
                                         <h3 class="dc-features-title ">Administration</h3>
                                     </div>
@@ -784,7 +784,7 @@
                                 <div class="dc-features-item-front ">
                                     <div class="inner-box ">
                                         <div class="icon ">
-                                            <img class="normal " src="images/inventory.png " style=" " alt="Inventory ">
+                                            <img fetchpriority="low" decoding="async" loading="lazy" class="normal  lazy-image" src="images/inventory.png" style=" " alt="Inventory ">
                                         </div>
                                         <h3 class="dc-features-title ">Inventory</h3>
                                     </div>
@@ -803,7 +803,7 @@
                                 <div class="dc-features-item-front ">
                                     <div class="inner-box ">
                                         <div class="icon ">
-                                            <img class="normal " src="images/fontoffice.png " alt="Front Office ">
+                                            <img fetchpriority="low" decoding="async" loading="lazy" class="normal  lazy-image" src="images/fontoffice.png" alt="Front Office ">
                                         </div>
                                         <h3 class="dc-features-title ">Front Office</h3>
                                     </div>
@@ -822,7 +822,7 @@
                                 <div class="dc-features-item-front ">
                                     <div class="inner-box ">
                                         <div class="icon ">
-                                            <img class="normal " src="images/cashier.png " alt="Cashier ">
+                                            <img fetchpriority="low" decoding="async" loading="lazy" class="normal  lazy-image" src="images/cashier.png" alt="Cashier ">
                                         </div>
                                         <h3 class="dc-features-title ">Cashier</h3>
                                     </div>
@@ -841,7 +841,7 @@
                                 <div class="dc-features-item-front ">
                                     <div class="inner-box ">
                                         <div class="icon ">
-                                            <img class="normal " src="images/pos.png " alt="Point Of Sales ">
+                                            <img fetchpriority="low" decoding="async" loading="lazy" class="normal  lazy-image" src="images/pos.png" alt="Point Of Sales ">
                                         </div>
                                         <h3 class="dc-features-title ">Point Of Sales</h3>
                                     </div>
@@ -860,7 +860,7 @@
                                 <div class="dc-features-item-front ">
                                     <div class="inner-box ">
                                         <div class="icon ">
-                                            <img class="normal " src="images/diet.png " alt="Food & Beverages ">
+                                            <img fetchpriority="low" decoding="async" loading="lazy" class="normal  lazy-image" src="images/diet.png" alt="Food & Beverages ">
                                         </div>
                                         <h3 class="dc-features-title ">Food & Beverages</h3>
                                     </div>
@@ -879,7 +879,7 @@
                                 <div class="dc-features-item-front ">
                                     <div class="inner-box ">
                                         <div class="icon ">
-                                            <img class="normal " src="images/purchases.png " alt="Purchases ">
+                                            <img fetchpriority="low" decoding="async" loading="lazy" class="normal  lazy-image" src="images/purchases.png" alt="Purchases ">
                                         </div>
                                         <h3 class="dc-features-title ">Purchases</h3>
                                     </div>
@@ -898,7 +898,7 @@
                                 <div class="dc-features-item-front ">
                                     <div class="inner-box ">
                                         <div class="icon ">
-                                            <img class="normal " src="images/housekeeping.png " alt="House Keeping ">
+                                            <img fetchpriority="low" decoding="async" loading="lazy" class="normal  lazy-image" src="images/housekeeping.png" alt="House Keeping ">
                                         </div>
                                         <h3 class="dc-features-title ">House Keeping</h3>
                                     </div>
@@ -917,7 +917,7 @@
                                 <div class="dc-features-item-front ">
                                     <div class="inner-box ">
                                         <div class="icon ">
-                                            <img class="normal " src="images/maintenance.png " alt="Maintenance ">
+                                            <img fetchpriority="low" decoding="async" loading="lazy" class="normal  lazy-image" src="images/maintenance.png" alt="Maintenance ">
                                         </div>
                                         <h3 class="dc-features-title ">Maintenance</h3>
                                     </div>
@@ -936,7 +936,7 @@
                                 <div class="dc-features-item-front ">
                                     <div class="inner-box ">
                                         <div class="icon ">
-                                            <img class="normal " src="images/accounts.png " alt="Accounts ">
+                                            <img fetchpriority="low" decoding="async" loading="lazy" class="normal  lazy-image" src="images/accounts.png" alt="Accounts ">
                                         </div>
                                         <h3 class="dc-features-title ">Accounts</h3>
                                     </div>
@@ -1059,7 +1059,7 @@
         <footer class="site-footer footer-theme-one ">
             <div class="container ">
                 <div class="footer-logo ">
-                    <img src="images/logo.png " alt="SAFHA software ">
+                    <img src="images/logo.png" alt="SAFHA software ">
                 </div>
                 <div class="main-footer style-dark ">
                     <div class="row ">

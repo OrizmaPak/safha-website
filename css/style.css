@@ -288,6 +288,16 @@ img {
     max-width: 100%;
 }
 
+img.lazy-image {
+    background-color: #f4f7fb;
+    background-image: linear-gradient(110deg, #f4f7fb 0%, #edf2f8 45%, #f4f7fb 90%);
+    background-size: 200% 100%;
+}
+
+img.lazy-image[src^="data:image"] {
+    min-height: 32px;
+}
+
 *,
  ::after,
  ::before {
