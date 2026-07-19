@@ -247,22 +247,44 @@ h3 {
     background: #10243a;
 }
 
-.hero-media {
+.hero-visual {
     position: absolute;
     top: 50%;
-    right: max(-10px, calc((100vw - var(--shell)) / 2 - 95px));
-    width: min(74vw, 980px);
+    right: 0;
+    width: clamp(500px, 55vw, 900px);
+    max-width: none;
+    filter: drop-shadow(0 32px 42px rgba(3, 14, 28, 0.34));
+    transform: translateY(-50%);
+}
+
+.hero-media {
+    width: 100%;
     max-width: none;
     height: auto;
-    filter: drop-shadow(0 32px 42px rgba(3, 14, 28, 0.34));
-    transform: translateY(-48%);
+}
+
+.hero-image-brand {
+    position: absolute;
+    top: 9.5%;
+    left: 1.2%;
+    display: flex;
+    align-items: center;
+    width: 10.5%;
+    min-width: 58px;
+    padding: 4px 7px;
+    background: #fff;
+}
+
+.hero-image-brand img {
+    width: 100%;
+    height: auto;
 }
 
 .hero-shade {
     position: absolute;
     inset: 0 auto 0 0;
     z-index: 1;
-    width: 50%;
+    width: 42%;
     background: #10243a;
 }
 
@@ -273,7 +295,7 @@ h3 {
 }
 
 .hero-inner > * {
-    max-width: 530px;
+    max-width: 480px;
 }
 
 .hero-app-label {
@@ -340,7 +362,7 @@ h3 {
 
 .hero h1 {
     margin-bottom: 24px;
-    font-size: 58px;
+    font-size: 54px;
     line-height: 1.04;
 }
 
@@ -1159,11 +1181,11 @@ h3 {
     }
 
     .hero h1 {
-        font-size: 51px;
+        font-size: 45px;
     }
 
     .hero-inner > * {
-        max-width: 490px;
+        max-width: 365px;
     }
 
     .proof-grid {
@@ -1255,12 +1277,11 @@ h3 {
         min-height: 720px;
     }
 
-    .hero-media {
+    .hero-visual {
         top: 270px;
         right: auto;
         left: calc(8vw - 300px);
         width: 970px;
-        height: auto;
         transform: none;
     }
 
@@ -1378,7 +1399,7 @@ h3 {
         min-height: 710px;
     }
 
-    .hero-media {
+    .hero-visual {
         top: 360px;
         right: auto;
         left: -254px;
@@ -1513,7 +1534,7 @@ h3 {
         font-size: 35px;
     }
 
-    .hero-media {
+    .hero-visual {
         right: auto;
         left: -254px;
         width: 820px;

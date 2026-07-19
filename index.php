@@ -47,7 +47,10 @@
 
     <main id="main-content">
         <section class="hero" id="home">
-            <img class="hero-media" src="images/s1banner.png" width="923" height="729" alt="SAFHA hotel financial overview dashboard" fetchpriority="high">
+            <div class="hero-visual">
+                <img class="hero-media" src="images/s1banner.png" width="923" height="729" alt="SAFHA hotel financial overview dashboard" fetchpriority="high">
+                <span class="hero-image-brand" aria-hidden="true"><img src="images/logo.png" width="1663" height="377" alt=""></span>
+            </div>
             <div class="hero-shade" aria-hidden="true"></div>
             <div class="hero-app-label" aria-hidden="true">
                 <span class="hero-live-dot"></span>
