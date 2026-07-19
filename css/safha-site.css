@@ -250,8 +250,8 @@ h3 {
 .hero-media {
     position: absolute;
     top: 50%;
-    right: max(-80px, calc((100vw - var(--shell)) / 2 - 190px));
-    width: min(68vw, 960px);
+    right: max(-90px, calc((100vw - var(--shell)) / 2 - 230px));
+    width: min(78vw, 1100px);
     max-width: none;
     height: auto;
     filter: drop-shadow(0 32px 42px rgba(3, 14, 28, 0.34));
@@ -1258,7 +1258,7 @@ h3 {
     .hero-media {
         top: 410px;
         right: -55px;
-        width: min(96vw, 820px);
+        width: 970px;
         height: auto;
         transform: none;
     }
@@ -1378,9 +1378,10 @@ h3 {
     }
 
     .hero-media {
-        top: 500px;
-        right: -115px;
-        width: 520px;
+        top: 430px;
+        right: auto;
+        left: -139px;
+        width: 820px;
     }
 
     .hero-shade {
@@ -1512,8 +1513,9 @@ h3 {
     }
 
     .hero-media {
-        right: -130px;
-        width: 510px;
+        right: auto;
+        left: -139px;
+        width: 820px;
     }
 
     .workflow {
