@@ -49,8 +49,15 @@
         <section class="hero" id="home">
             <img class="hero-media" src="images/ss28.png" width="1361" height="645" alt="SAFHA room status dashboard" fetchpriority="high">
             <div class="hero-shade" aria-hidden="true"></div>
+            <div class="hero-app-label" aria-hidden="true">
+                <span class="hero-live-dot"></span>
+                <div>
+                    <strong>Live room status</strong>
+                    <span>Availability and service readiness</span>
+                </div>
+            </div>
             <div class="shell hero-inner">
-                <p class="eyebrow eyebrow-light"><span aria-hidden="true"></span>Complete hotel management</p>
+                <p class="eyebrow eyebrow-light"><span aria-hidden="true"></span>SAFHA hotel operating system</p>
                 <h1>Hotel operations,<br>finally working as one.</h1>
                 <p class="hero-copy">SAFHA connects front office, rooms, housekeeping, sales, inventory, purchasing, finance and staff management in one clear operational platform.</p>
                 <div class="hero-actions">
