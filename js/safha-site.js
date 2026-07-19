@@ -4,6 +4,7 @@
     const header = document.getElementById("site-header");
     const nav = document.getElementById("site-nav");
     const navToggle = document.querySelector(".nav-toggle");
+    const motionPreference = window.matchMedia("(prefers-reduced-motion: reduce)");
 
     function closeNavigation() {
         nav.classList.remove("is-open");
@@ -49,7 +50,14 @@
         });
 
         panels.forEach(function (panel) {
-            panel.hidden = panel.dataset.panel !== target;
+            const active = panel.dataset.panel === target;
+            panel.hidden = !active;
+
+            if (active && !motionPreference.matches) {
+                panel.classList.remove("is-switching");
+                void panel.offsetWidth;
+                panel.classList.add("is-switching");
+            }
         });
     }
 
@@ -70,6 +78,94 @@
             tabs[nextIndex].focus();
         });
     });
+
+    function setupScrollMotion() {
+        if (motionPreference.matches || !("IntersectionObserver" in window)) {
+            return;
+        }
+
+        const revealSets = [
+            { selector: ".proof-grid > *", type: "up", step: 70 },
+            { selector: ".section-heading", type: "up", step: 0 },
+            { selector: ".outcome-grid > *", type: "up", step: 90 },
+            { selector: ".operation-tabs", type: "up", step: 0 },
+            { selector: ".operation-panel:not([hidden]) .operation-copy", type: "left", step: 0 },
+            { selector: ".operation-panel:not([hidden]) .product-shot", type: "visual", step: 0 },
+            { selector: ".workflow > *", type: "up", step: 70 },
+            { selector: ".capability-grid > *", type: "up", step: 55 },
+            { selector: ".control-copy", type: "left", step: 0 },
+            { selector: ".control-list > *", type: "up", step: 80 },
+            { selector: ".control-shot", type: "visual", step: 0 },
+            { selector: ".reporting-visual", type: "visual", step: 0 },
+            { selector: ".reporting-copy", type: "right", step: 0 },
+            { selector: ".report-list > *", type: "up", step: 70 },
+            { selector: ".faq-intro", type: "left", step: 0 },
+            { selector: ".faq-list", type: "right", step: 0 },
+            { selector: ".faq-list > *", type: "up", step: 60 },
+            { selector: ".demo-copy", type: "left", step: 0 },
+            { selector: ".demo-form", type: "right", step: 0 },
+            { selector: ".footer-main > *", type: "up", step: 70 },
+            { selector: ".footer-bottom > *", type: "up", step: 70 }
+        ];
+        const revealElements = [];
+
+        revealSets.forEach(function (set) {
+            document.querySelectorAll(set.selector).forEach(function (element, index) {
+                if (element.hasAttribute("data-reveal")) {
+                    return;
+                }
+
+                element.setAttribute("data-reveal", set.type);
+                element.style.setProperty("--reveal-delay", Math.min(index * set.step, 360) + "ms");
+                revealElements.push(element);
+            });
+        });
+
+        document.documentElement.classList.add("motion-enabled");
+
+        const revealObserver = new IntersectionObserver(function (entries) {
+            entries.forEach(function (entry) {
+                if (!entry.isIntersecting) {
+                    return;
+                }
+
+                entry.target.classList.add("is-revealed");
+                entry.target.addEventListener("transitionend", function (event) {
+                    if (event.propertyName === "opacity") {
+                        entry.target.classList.add("reveal-settled");
+                    }
+                }, { once: true });
+                revealObserver.unobserve(entry.target);
+            });
+        }, {
+            threshold: 0.12,
+            rootMargin: "0px"
+        });
+
+        revealElements.forEach(function (element) {
+            revealObserver.observe(element);
+        });
+
+        function handleMotionPreferenceChange(event) {
+            if (!event.matches) {
+                return;
+            }
+
+            document.documentElement.classList.remove("motion-enabled");
+            revealElements.forEach(function (element) {
+                revealObserver.unobserve(element);
+                element.classList.add("is-revealed");
+            });
+        }
+
+        if (typeof motionPreference.addEventListener === "function") {
+            motionPreference.addEventListener("change", handleMotionPreferenceChange);
+        } else if (typeof motionPreference.addListener === "function") {
+            motionPreference.addListener(handleMotionPreferenceChange);
+        }
+    }
+
+    setupScrollMotion();
 
     const demoForm = document.getElementById("demo-form");
     const formNote = document.getElementById("form-note");
