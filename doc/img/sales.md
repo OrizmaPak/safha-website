@@ -4,10 +4,10 @@ sidebar_position: 1
 
 # Sales
 
-**HEMS - Hotel Manager**
+**SAFHA - Hotel Manager**
 
-![HEMS Registration](../../static/img/sales.png "HEMS Registration")
-![HEMS Registration](../../static/img/sales2.png "HEMS Registration")
+![SAFHA Registration](../../static/img/sales.png "SAFHA Registration")
+![SAFHA Registration](../../static/img/sales2.png "SAFHA Registration")
 
 
 ## Sales Page

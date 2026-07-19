@@ -4,9 +4,9 @@ sidebar_position: 3
 
 # Sales Report
 
-**HEMS - Hotel Manager**
+**SAFHA - Hotel Manager**
 
-![HEMS Registration](../../static/img/salesreport.png "HEMS Registration")
+![SAFHA Registration](../../static/img/salesreport.png "SAFHA Registration")
 
 ## Sales Report Page
 

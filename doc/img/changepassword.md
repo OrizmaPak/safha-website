@@ -4,9 +4,9 @@ sidebar_position: 8
 
 # change password
 
-**HEMS - Hotel Manager**
+**SAFHA - Hotel Manager**
 
-![HEMS Registration](../../static/img/changepassword.png "HEMS Registration")
+![SAFHA Registration](../../static/img/changepassword.png "SAFHA Registration")
 
 # Change Password
 

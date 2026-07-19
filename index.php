@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- Mirrored from HEMS.sacredthemes.net/layouts/index-standard.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 29 Aug 2024 22:50:48 GMT -->
+<!-- Mirrored from SAFHA.sacredthemes.net/layouts/index-standard.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 29 Aug 2024 22:50:48 GMT -->
 
 <head>
     <meta charset="utf-8" />
-    <title>HEMS Software</title>
+    <title>SAFHA Software</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="App and Saas Landing Template" />
     <meta name="keywords" content="Application, Clean, Saas, Dashboard, Bootstrap4, Software Landing, HTML5 Template" />
@@ -67,7 +67,7 @@
         <div id="preloader">
             <div id="status">
                 <div class="d-loader " style="transform: scale(4);position: relative;top: 100px">
-                    <img src="images/logofull.png" style="" alt="hems">
+                    <img src="images/logofull.png" style="" alt="safha">
                 </div>
             </div>
         </div>
@@ -77,8 +77,8 @@
             <div class="container-fluid">
                 <div id="main-logo" class="logo-container">
                     <a class="logo" href="index.html">
-                        <img src="images/logo.png" class="logo-dark" alt="HEMS">
-                        <img src="images/logo.png" class="logo-light" alt="HEMS">
+                        <img src="images/logo.png" class="logo-dark" alt="SAFHA">
+                        <img src="images/logo.png" class="logo-light" alt="SAFHA">
                     </a>
                 </div>
                 <div class="menu-toggle-btn">
@@ -226,10 +226,10 @@
                     <div class="row align-items-center">
                         <div class="col-lg-6 justify-content-center">
                             <div class="heading-wrapper with-separator wow fadeInUp ">
-                                <h1>HEMS <br><span>Enterprise Hotel Management Platform </span> <br> to boost your progress.</h1>
+                                <h1>SAFHA <br><span>Enterprise Hotel Management Platform </span> <br> to boost your progress.</h1>
                             </div>
                             <div class="text-wrapper wow fadeInUp " data-wow-delay="0.2s ">
-                                <p>With HEMS, you’re not just managing rooms; you’re orchestrating experiences. From check-in to check-out, our intuitive platform empowers you to personalize guest interactions, track preferences, and anticipate needs. Welcome
+                                <p>With SAFHA, you’re not just managing rooms; you’re orchestrating experiences. From check-in to check-out, our intuitive platform empowers you to personalize guest interactions, track preferences, and anticipate needs. Welcome
                                     to the future of hospitality.</p>
                             </div>
                             <div class="btn-wrapper wow fadeInUp " data-wow-delay="0.4s ">
@@ -264,7 +264,7 @@
                                             </div>
                                             <div class="text ">
                                                 <h4>Clean Code</h4>
-                                                <p>The Backbone of HEMS. Our foundation for seamless operations.</p>
+                                                <p>The Backbone of SAFHA. Our foundation for seamless operations.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -343,13 +343,13 @@
                     <div class="row clearfix ">
                         <div class="col-lg-6 ">
                             <div class="heading-wrapper with-separator ">
-                                <h2 class="h1 ">Discover the <span>Power of HEMS</span> for Efficient Hotel Management</h2>
+                                <h2 class="h1 ">Discover the <span>Power of SAFHA</span> for Efficient Hotel Management</h2>
                             </div>
                             <!--* End Heading -->
                             <div class="text-wrapper ">
-                                <p>Introducing HEMS, the ultimate hotel management software designed to revolutionize how you run your hotel. HEMS offers a comprehensive suite of tools that streamline every aspect of hotel operations, from reservations and
+                                <p>Introducing SAFHA, the ultimate hotel management software designed to revolutionize how you run your hotel. SAFHA offers a comprehensive suite of tools that streamline every aspect of hotel operations, from reservations and
                                     guest management to reporting and analytics.</p>
-                                <p>Our software is engineered to enhance efficiency, improve guest satisfaction, and provide valuable insights into your hotel's performance. With intuitive interfaces and powerful features, HEMS makes managing your hotel
+                                <p>Our software is engineered to enhance efficiency, improve guest satisfaction, and provide valuable insights into your hotel's performance. With intuitive interfaces and powerful features, SAFHA makes managing your hotel
                                     operations effortless and effective.</p>
                                 <ul class="list-style-one ">
                                     <li>Seamless reservation and booking management to optimize room occupancy.</li>
@@ -404,9 +404,9 @@
                     <div class="row justify-content-center clearfix style-dark ">
                         <div class="col-lg-8 ">
                             <div class="heading-wrapper text-center ">
-                                <h2 class="h1 ">Explore HEMS</h2>
+                                <h2 class="h1 ">Explore SAFHA</h2>
                                 <div class="lead-text ">
-                                    <p>Discover HEMS through detailed software screenshots showcasing its intuitive interface and powerful features for seamless hotel management.</p>
+                                    <p>Discover SAFHA through detailed software screenshots showcasing its intuitive interface and powerful features for seamless hotel management.</p>
                                 </div>
                             </div>
 
@@ -596,7 +596,7 @@
                             <div class="heading-wrapper text-center with-separator ">
                                 <h2 class="h1 ">Flexible <span>Pricing Plans</span></h2>
                                 <div class="lead-text ">
-                                    <p>Choose the perfect plan that fits your hotel's needs. HEMS offers flexible pricing options designed to accommodate hotels of all sizes, ensuring you get the best value for our powerful management tools. Whether you're
+                                    <p>Choose the perfect plan that fits your hotel's needs. SAFHA offers flexible pricing options designed to accommodate hotels of all sizes, ensuring you get the best value for our powerful management tools. Whether you're
                                         running a boutique hotel or a large chain, our plans provide comprehensive features at competitive prices.</p>
                                 </div>
                             </div>
@@ -637,7 +637,7 @@
                             <div class="heading-wrapper text-center with-separator ">
                                 <h2 class="h1 ">Happy Clients <span>Feedback</span></h2>
                                 <div class="lead-text ">
-                                    <p>Our clients love how HEMS has transformed their hotel management experience. Here's what they have to say.</p>
+                                    <p>Our clients love how SAFHA has transformed their hotel management experience. Here's what they have to say.</p>
                                 </div>
                             </div>
                             <!--* End Heading -->
@@ -652,7 +652,7 @@
                                     <div class="item ">
                                         <div class="testimonial-text ">
                                             <blockquote>
-                                                HEMS has revolutionized the way we manage our hotel operations. The seamless integration and easy-to-use interface have made our work so much easier. We couldn't be happier!
+                                                SAFHA has revolutionized the way we manage our hotel operations. The seamless integration and easy-to-use interface have made our work so much easier. We couldn't be happier!
                                             </blockquote>
                                         </div>
                                         <div class="client-info-wrapper ">
@@ -668,7 +668,7 @@
                                     <div class="item ">
                                         <div class="testimonial-text ">
                                             <blockquote>
-                                                The customer support is outstanding, and the software itself is incredibly efficient. HEMS has helped us streamline our processes and focus more on guest satisfaction.
+                                                The customer support is outstanding, and the software itself is incredibly efficient. SAFHA has helped us streamline our processes and focus more on guest satisfaction.
                                             </blockquote>
                                         </div>
                                         <div class="client-info-wrapper ">
@@ -684,7 +684,7 @@
                                     <div class="item ">
                                         <div class="testimonial-text ">
                                             <blockquote>
-                                                We've seen a significant improvement in our overall operations since switching to HEMS. The reporting tools and analytics are particularly helpful in making informed decisions.
+                                                We've seen a significant improvement in our overall operations since switching to SAFHA. The reporting tools and analytics are particularly helpful in making informed decisions.
                                             </blockquote>
                                         </div>
                                         <div class="client-info-wrapper ">
@@ -700,7 +700,7 @@
                                     <div class="item ">
                                         <div class="testimonial-text ">
                                             <blockquote>
-                                                HEMS is an absolute game-changer for us. The software is intuitive, and the level of customization available has allowed us to tailor it perfectly to our needs.
+                                                SAFHA is an absolute game-changer for us. The software is intuitive, and the level of customization available has allowed us to tailor it perfectly to our needs.
                                             </blockquote>
                                         </div>
                                         <div class="client-info-wrapper ">
@@ -716,7 +716,7 @@
                                     <div class="item ">
                                         <div class="testimonial-text ">
                                             <blockquote>
-                                                HEMS has provided us with the tools we need to enhance our guest experience. It's a comprehensive solution that covers all aspects of hotel management.
+                                                SAFHA has provided us with the tools we need to enhance our guest experience. It's a comprehensive solution that covers all aspects of hotel management.
                                             </blockquote>
                                         </div>
                                         <div class="client-info-wrapper ">
@@ -746,7 +746,7 @@
                         <div class="heading-wrapper ">
                             <h1 class="h1 ">Features</h1>
                             <div class="lead-text ">
-                                <p>What makes HEMS an outstanding hotel management software? It's not just the robust functionalities but also the seamless experience it provides to the people who use it every day.</p>
+                                <p>What makes SAFHA an outstanding hotel management software? It's not just the robust functionalities but also the seamless experience it provides to the people who use it every day.</p>
                             </div>
                         </div>
                         <!--* End Breadcrumb -->
@@ -1059,14 +1059,14 @@
         <footer class="site-footer footer-theme-one ">
             <div class="container ">
                 <div class="footer-logo ">
-                    <img src="images/logo.png " alt="HEMS software ">
+                    <img src="images/logo.png " alt="SAFHA software ">
                 </div>
                 <div class="main-footer style-dark ">
                     <div class="row ">
                         <div class="col-lg-3 ">
                             <div class="widget ">
                                 <div class="widget-title ">
-                                    <h3 class="title ">About HEMS</h3>
+                                    <h3 class="title ">About SAFHA</h3>
                                 </div>
                                 <div class="text-widget ">
                                     <div class="contact-info ">
@@ -1173,7 +1173,7 @@
                 </div>
                 <div class="copyright-bar style-dark ">
                     <div class="copyright-text text-center ">
-                        © Copyright HEMS <span id="currentYear"></span>.</a>.
+                        © Copyright SAFHA <span id="currentYear"></span>.</a>.
                     </div>
                     <script>
                         document.getElementById('currentYear').innerHTML = new Date().getFullYear();
@@ -1239,7 +1239,7 @@
     <script src="js/dcode.js "></script>
 </body>
 
-<!-- Mirrored from HEMS.sacredthemes.net/layouts/index-standard.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 29 Aug 2024 22:51:16 GMT -->
+<!-- Mirrored from SAFHA.sacredthemes.net/layouts/index-standard.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 29 Aug 2024 22:51:16 GMT -->
 
 </html>
 
