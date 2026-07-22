@@ -355,7 +355,7 @@
                     </div>
                 </div>
 
-                <form class="demo-form" id="demo-form" action="/controllers/sendcontactdata.php" method="post">
+                <form class="demo-form" id="demo-form" action="/website/controllers/sendcontactdata.php" method="post">
                     <input type="hidden" name="request_type" value="demo_request">
                     <input type="hidden" name="source" value="SAFHA marketing website">
                     <div class="form-row">
