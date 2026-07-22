@@ -355,7 +355,9 @@
                     </div>
                 </div>
 
-                <form class="demo-form" id="demo-form">
+                <form class="demo-form" id="demo-form" action="/sendcontactdata" method="post">
+                    <input type="hidden" name="request_type" value="demo_request">
+                    <input type="hidden" name="source" value="SAFHA marketing website">
                     <div class="form-row">
                         <label>Full name<input type="text" name="name" autocomplete="name" required></label>
                         <label>Work email<input type="email" name="email" autocomplete="email" required></label>
@@ -374,8 +376,8 @@
                         </select>
                     </label>
                     <label>What would you like to improve?<textarea name="message" rows="4" placeholder="Front desk, stock control, reporting, finance, staff operations..."></textarea></label>
-                    <button class="button button-primary button-submit" type="submit"><i class="fas fa-paper-plane" aria-hidden="true"></i>Prepare demo request</button>
-                    <p class="form-note" id="form-note">Submitting opens your email app with the request ready to send.</p>
+                    <button class="button button-primary button-submit" type="submit"><i class="fas fa-paper-plane" aria-hidden="true"></i>Request demo</button>
+                    <p class="form-note" id="form-note" role="status" aria-live="polite">Submit your details and the SAFHA team will follow up.</p>
                 </form>
             </div>
         </section>

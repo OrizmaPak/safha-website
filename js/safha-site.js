@@ -170,40 +170,53 @@
     const demoForm = document.getElementById("demo-form");
     const formNote = document.getElementById("form-note");
 
-    demoForm.addEventListener("submit", function (event) {
+    function setFormStatus(type, message) {
+        formNote.textContent = message;
+        formNote.dataset.status = type;
+    }
+
+    demoForm.addEventListener("submit", async function (event) {
         event.preventDefault();
 
         if (!demoForm.reportValidity()) {
             return;
         }
 
+        const submitButton = demoForm.querySelector("[type='submit']");
         const data = new FormData(demoForm);
-        const name = data.get("name");
-        const email = data.get("email");
         const property = data.get("property");
-        const phone = data.get("phone") || "Not provided";
-        const rooms = data.get("rooms");
-        const message = data.get("message") || "I would like to learn how SAFHA can support our hotel operations.";
-        const subject = "SAFHA demo request - " + property;
-        const body = [
-            "Hello SAFHA team,",
-            "",
-            "I would like to request a product demonstration.",
-            "",
-            "Name: " + name,
-            "Work email: " + email,
-            "Hotel/company: " + property,
-            "Phone: " + phone,
-            "Approximate room count: " + rooms,
-            "",
-            "Priority workflows:",
-            message,
-            "",
-            "Thank you."
-        ].join("\n");
+        const message = data.get("message");
 
-        formNote.textContent = "Your email app is opening with the request ready to send.";
-        window.location.href = "mailto:icisystemng@gmail.com?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);
+        data.set("phone", data.get("phone") || "Not provided");
+        data.set("message", message || "I would like to learn how SAFHA can support our hotel operations.");
+        data.set("subject", "SAFHA demo request - " + property);
+
+        submitButton.disabled = true;
+        demoForm.classList.add("is-submitting");
+        setFormStatus("pending", "Submitting your request...");
+
+        try {
+            const response = await fetch(demoForm.action, {
+                method: "POST",
+                body: data,
+                headers: {
+                    "Accept": "application/json, text/plain, */*"
+                },
+                credentials: "same-origin"
+            });
+
+            if (!response.ok) {
+                throw new Error("Request failed with status " + response.status);
+            }
+
+            demoForm.reset();
+            setFormStatus("success", "Thank you. Your request has been sent and the SAFHA team will follow up.");
+        } catch (error) {
+            setFormStatus("error", "We could not submit the form. Please email icisystemng@gmail.com or try again.");
+        } finally {
+            submitButton.disabled = false;
+            demoForm.classList.remove("is-submitting");
+        }
     });
 
     document.getElementById("current-year").textContent = new Date().getFullYear();
