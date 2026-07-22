@@ -183,13 +183,13 @@
         }
 
         const submitButton = demoForm.querySelector("[type='submit']");
-        const data = new FormData(demoForm);
-        const property = data.get("property");
-        const message = data.get("message");
+        const formData = new FormData(demoForm);
+        const data = new FormData();
 
-        data.set("phone", data.get("phone") || "Not provided");
-        data.set("message", message || "I would like to learn how SAFHA can support our hotel operations.");
-        data.set("subject", "SAFHA demo request - " + property);
+        data.set("lastname", formData.get("lastname"));
+        data.set("firstname", formData.get("firstname"));
+        data.set("email", formData.get("email"));
+        data.set("message", formData.get("message"));
 
         submitButton.disabled = true;
         demoForm.classList.add("is-submitting");

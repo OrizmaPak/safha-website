@@ -356,26 +356,14 @@
                 </div>
 
                 <form class="demo-form" id="demo-form" action="/website/controllers/sendcontactdata.php" method="post">
-                    <input type="hidden" name="request_type" value="demo_request">
-                    <input type="hidden" name="source" value="SAFHA marketing website">
                     <div class="form-row">
-                        <label>Full name<input type="text" name="name" autocomplete="name" required></label>
+                        <label>First name<input type="text" name="firstname" autocomplete="given-name" required></label>
+                        <label>Last name<input type="text" name="lastname" autocomplete="family-name" required></label>
+                    </div>
+                    <div class="form-row">
                         <label>Work email<input type="email" name="email" autocomplete="email" required></label>
                     </div>
-                    <div class="form-row">
-                        <label>Hotel or company<input type="text" name="property" autocomplete="organization" required></label>
-                        <label>Phone number<input type="tel" name="phone" autocomplete="tel"></label>
-                    </div>
-                    <label>Approximate room count
-                        <select name="rooms">
-                            <option value="Not specified">Select a range</option>
-                            <option value="1-25 rooms">1-25 rooms</option>
-                            <option value="26-75 rooms">26-75 rooms</option>
-                            <option value="76-150 rooms">76-150 rooms</option>
-                            <option value="151+ rooms">151+ rooms</option>
-                        </select>
-                    </label>
-                    <label>What would you like to improve?<textarea name="message" rows="4" placeholder="Front desk, stock control, reporting, finance, staff operations..."></textarea></label>
+                    <label>Message<textarea name="message" rows="4" placeholder="Tell us about your property and what you would like SAFHA to improve." required></textarea></label>
                     <button class="button button-primary button-submit" type="submit"><i class="fas fa-paper-plane" aria-hidden="true"></i>Request demo</button>
                     <p class="form-note" id="form-note" role="status" aria-live="polite">Submit your details and the SAFHA team will follow up.</p>
                 </form>
